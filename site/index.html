@@ -10,6 +10,27 @@
 			
 
 		}
+		div{
+			width: 100px;
+			height: 100px;
+			background-color: purple;
+			position: relative;
+			animation-name: Jerry;
+			animation-duration: 6s;
+			animation-delay: 2s;
+		}
+		@keyframes Jerry{
+			0%{background-color: purple;left: 0px;top: 0px;}
+			25%{background-color: red;left: 300px;top: 0px;}
+			50%{background-color: orange;left: 300px;top: 300px;}
+			75%{background-color: yellow;right:  300px;top: 300px;}
+			85%{background-color: green;left: 500px;top: 300px;}
+			100%{background-color: purple;left: 0px;top: 0px;}
+		}
+
+
+
+
 		@keyframes Tom{
 			from{
 				color: green;
@@ -23,5 +44,6 @@
 </head>
 <body>
 	<h1>Souhardya Dey's First Web Page</h1>
+	<div></div>
 </body>
 </html>
